@@ -96,3 +96,42 @@ body{
         #63B3D2 50%,
         #BFE5F2);
 }
+
+.transform{
+    font-size: 10px;
+    width: 100px;
+    text-align: 45px 0px;
+    margin: 20px;
+    background-color: mediumspringgreen;
+}
+.translateX{
+    transform: translateX(10px);
+}
+.translateY{
+    transform: translateY(10px);
+}
+.translate{
+    transform: translate(-20px, -5px);
+}
+.scale{
+    transform: scale(1.2);
+}
+.scaleY{
+    transform: scaleY(0.6);
+}
+.rotate{
+    transform: rotate(30deg);
+}
+.skewX{
+    transform: skewX(30deg);
+}
+.skewY{
+    transform: skewY(30deg);
+}
+.skew{
+    transform: skew(30deg, 45deg);
+}
+.transform-origin{
+    transform-origin: 0% 0%;
+    transform: rotate(30deg);
+}
